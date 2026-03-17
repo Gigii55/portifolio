@@ -1,0 +1,79 @@
+:root{
+    --azul-ecuro: #102250;
+    --azul: #2a4884;
+    --amarelo: #dec590;
+    --branco: #f5f0ea;
+    --off-white: #f5f0ea;
+
+}
+
+body{
+    background-image: url("../images/e.png");
+    background-size: cover;
+}
+
+.quem-sou {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 45vw;
+    margin-top: 4vw;
+}
+.sobre{
+ display: flex;
+}
+
+.foto-perfil {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 100%;
+}
+
+.div-foto { 
+margin-top: 5vw;
+margin-left: 15vw;
+}
+
+.descricao {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin-left: 1vw;
+}
+
+.div-descricao {
+    align-items: center;
+    width: 50vw;
+    height: 20vw;
+    margin-left: 5vw;
+    max-width: 40vw;
+    margin-top: 8vw;
+    background-color: rgba(195, 204, 224, 0.5);
+    border-radius: 2rem;
+}
+
+.secao-habilidades {
+     display: flex;
+    width: fit-content; 
+    text-align: center; 
+    margin-left: 5vw; 
+    margin-top: 10vw;
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+
+.minhas, .habi {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.aba-habilidades {
+   
+    height: 20vw;
+    width: 50vw;
+    margin-top: 0.5vw;
+    margin-left: 14vw;
+    background-color: rgb(222, 222, 222);
+    border-radius: 2rem;
+}
