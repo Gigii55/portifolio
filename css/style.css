@@ -552,3 +552,53 @@ body {
         height: 6vw;
     }
 }
+
+
+/* --- ESTILO DO DROPDOWN DE IDIOMAS --- */
+.dropdown-idioma {
+    position: relative; /* Segura o menu preso abaixo do ícone */
+    display: inline-block;
+}
+
+.icon-idioma {
+    height: 2.3rem;
+    width: 2.3rem;
+    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+    cursor: pointer; /* O mouse vira uma mãozinha para mostrar que é clicável */
+}
+
+/* O Menu invisível por padrão */
+.menu-idiomas {
+    display: none; /* Fica escondido */
+    position: absolute;
+    right: 0; /* Alinha a caixinha pela direita do ícone */
+    top: 100%; /* Desce para logo abaixo do ícone */
+    background-color: rgb(30, 48, 77); /* Usando aquele azul bonito dos seus projetos */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    border: 1px solid var(--azul);
+    border-radius: 8px;
+    z-index: 1000; /* Garante que fique por cima de tudo no site */
+    overflow: hidden; /* Pra não vazar os cantos quadrados nos links */
+}
+
+/* Estilo dos links dentro da caixinha */
+.menu-idiomas a {
+    color: var(--branco);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+    transition: background 0.3s;
+}
+
+.menu-idiomas a:hover {
+    background-color: var(--azul); /* Destaca quando passa o mouse */
+}
+
+/* A CLASSE MÁGICA: O JS vai usar essa classe para fazer o menu aparecer */
+.menu-idiomas.mostrar {
+    display: block;
+}       

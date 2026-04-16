@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <title>Giovanna Bernadelli - Portafolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img class="imagem-logo" src="images/logo.svg" alt="logo planeta">
+        </div>
+        <div class="nav-links">
+            <a href="#sobre">Presentación</a>
+            <a href="#projetos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contacto</a>
+        </div>
+        <div class="funcoes">
+            <img class="icon-sol" src="images/icon-sol.svg" alt="Modo oscuro">
+            <div class="dropdown-idioma">
+                <img class="icon-idioma" id="btn-idioma" src="images/icon-idioma.svg" alt="Idiomas">
+                <div class="menu-idiomas" id="menu-idiomas">
+                    <a href="index.html">Português (PT-BR)</a>
+                    <a href="index-en.html">English (EN)</a>
+                    <a href="index-es.html">Español (ES)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="sobre" class="sobre">
+        <div class="div-foto">
+            <img src="images/foto.png" class="foto-perfil" alt="Giovanna Bernadelli">
+        </div>
+        <div class="div-descricao">
+            <h1 class="titulo-apresentacao">
+                HOLA,<br>
+                ME LLAMO <span class="destaque">GIOVANNA</span>,<br>
+                SOY DESARROLLADORA<br>
+                FULLSTACK
+            </h1>
+            <p class="texto-sobre">
+                Estudiante de Ingeniería de Software en el IFPR. Mi trayectoria en tecnología comenzó en 2020 con el curso técnico en Informática. Desde el primer contacto, me identifiqué con el área y hoy me enfoco en desarrollar soluciones eficientes como Desarrolladora Fullstack.
+            </p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="secao-habilidades">
+        <h2 class="minhas">MIS HABILIDADES</h2>
+        <div class="aba-habilidades">
+            <div class="card-habilidade">
+                <h3>Lenguajes</h3>
+                <div class="box">
+                    </div>
+            </div>
+            <div class="card-habilidade">
+                <h3>Frameworks & Herramientas</h3>
+                <div class="box">
+                    </div>
+            </div>
+            <div class="card-habilidade">
+                <h3>Base de Datos</h3>
+                <div class="box">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="minhas">PROYECTOS</h2>
+        <div class="container-projetos">
+            <div class="box-projetos">
+                <div class="projeto">
+                    <img src="images/projeto1.png" alt="Logo SETIF" class="img-projetos">
+                    <h3 class="titulo-projeto">SETIF - Diseño e implementación de la nueva interfaz gráfica para el sitio institucional SETIF 2023</h3>
+                </div>
+                <p class="tecnologia-projeto">El proyecto consiste en el rediseño del sitio web de SETIF 2023 del IFPR – Campus Paranavaí, con el objetivo de mejorar la interfaz, usabilidad y organización, utilizando tecnologías como PHP, Bootstrap y el patrón MVC.</p>
+                <a href="https://tecnoif.com.br/setif/2023/" target="_blank" class="btn-projeto">VER MÁS</a>
+            </div>
+
+            <div class="box-projetos">
+                <div class="projeto">
+                    <img src="images/projeto2.png" alt="ResiduoLab" class="img-projetos">
+                    <h3 class="titulo-projeto">RESIDUOLAB - Gestión de Residuos Químicos</h3>
+                </div>
+                <p class="tecnologia-projeto">Sistema para la gestión de residuos químicos, enfocado inicialmente en los laboratorios de Química y Biología del IFPR – Campus Paranavaí para el control y descarte adecuado de materiales.</p>
+                <a href="https://github.com/Gigii55/ResiduoLab.git" target="_blank" class="btn-projeto">VER MÁS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-github">
+        <div class="cta-content">
+            <h2 class="titulo-cta">¿Te gusta lo que ves?</h2>
+            <p class="texto-cta">Explora repositorios de sistemas complejos, experimentos en Flutter y proyectos académicos en mi ecosistema de desarrollo.</p>
+            <div class="div-btn-github">
+                <a href="https://github.com/Gigii55" target="_blank" class="btn-github">
+                    <img src="images/github.svg" alt="GitHub" class="icon-github-cta">
+                    EXPLORAR REPOSITORIOS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao-contato">
+        <h2 class="minhas">¿HABLAMOS?</h2>
+        <div class="container-contato">
+            <div class="card-contato">
+                <form action="#" class="formulario-contato">
+                    <input type="text" placeholder="Tu Nombre" class="input-campo" required>
+                    <input type="email" placeholder="Tu E-mail" class="input-campo" required>
+                    <textarea placeholder="Tu Mensaje" class="input-campo area-texto" required></textarea>
+                    <button type="submit" class="btn-enviar">ENVIAR MENSAJE</button>
+                </form>
+            </div>
+            <div class="info-contato">
+                <h3 class="subtitulo-contato">Contactos Directos</h3>
+                <p class="texto-sobre">Estoy abierta a propuestas de pasantías, proyectos freelance o colaboraciones académicas.</p>
+                <div class="links-redes">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/listaIdioma.js"></script>
+</body>
+</html>
