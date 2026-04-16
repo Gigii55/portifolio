@@ -1,44 +1,44 @@
-:root{
+:root {
     --azul-ecuro: #102250;
     --azul: #2a4884;
     --amarelo: #dec590;
     --branco: #f5f0ea;
     --off-white: #f5f0ea;
     --cor-textos: #dde3f3;
-
 }
 
-body{
+body {
     background-image: url("../images/b.png");
     background-size: cover;
-      margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .quem-sou {
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 45vw;
     margin-top: 4vw;
 }
-.sobre{
- display: flex;
+
+.sobre {
+    display: flex;
 }
 
 .foto-perfil {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 100%;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100%;
 }
 
 .div-foto { 
-margin-top: 5vw;
-margin-left: 15vw;
+    margin-top: 5vw;
+    margin-left: 15vw;
 }
 
 .descricao {
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
     margin-left: 1vw;
 }
@@ -51,7 +51,6 @@ margin-left: 15vw;
 }
 
 .secao-habilidades {
-  
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -67,7 +66,7 @@ margin-left: 15vw;
     line-height: 1.2;
     margin-bottom: 2vw;
     font-family: system-ui, -apple-system, sans-serif;
-    color:white;
+    color: white;
 }
 
 .titulo-apresentacao {
@@ -105,9 +104,8 @@ margin-left: 15vw;
     width: auto;       
 }
 
-.sessao-habilidades{
+.sessao-habilidades {
     width: auto;
-    
 }
 
 .card-habilidade h3 {
@@ -130,17 +128,15 @@ margin-left: 15vw;
     background-color: rgba(174, 193, 224, 0.286);   
     border-radius: 10%;
     padding: 1.5rem;      
-    border: 1px solid rgb(255, 255, 255); 
-    box-shadow: 0px 0px 20px rgba(202, 214, 235, 0.8); 
+    border: 0.1vw solid rgb(255, 255, 255); 
+    box-shadow: 0vw 0vw 1.5vw rgba(202, 214, 235, 0.8); 
 }
-
 
 .item-skill {
     display: flex;
     flex-direction: column; 
     align-items: center;  
 }
-
 
 .icone-linguagem {
     width: 6vw;    
@@ -152,7 +148,7 @@ margin-left: 15vw;
     font-family: system-ui, sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
-    margin-top: 5px; 
+    margin-top: 0.4vw; 
     margin-bottom: 0;
 }
 
@@ -171,7 +167,6 @@ margin-left: 15vw;
     align-items: center;   
     width: 100%;         
     margin-top: 10vw;       
-    
 }
 
 .box-projetos {
@@ -179,18 +174,15 @@ margin-left: 15vw;
     flex-direction: column;     
     justify-content: flex-start; 
     align-items: flex-start;     
-    
-  
     gap: 1.5rem;          
     height: auto;
     width: 25vw;
     background-color: rgb(30, 48, 77);   
     border-radius: 10%;
     padding: 2rem;               
-    border: 1px solid rgb(75, 90, 135); 
-    box-shadow: 0px 0px 20px rgba(97, 151, 244, 0.8); 
+    border: 0.1vw solid rgb(75, 90, 135); 
+    box-shadow: 0vw 0vw 1.5vw rgba(97, 151, 244, 0.8); 
 }
-
 
 .projeto {
     display: flex;
@@ -216,8 +208,7 @@ margin-left: 15vw;
 }
 
 .tecnologia-projeto {
-
-   color: var(--cor-textos);      
+    color: var(--cor-textos);      
     font-family: system-ui, sans-serif;
     font-size: 1.1rem;    
     line-height: 1.6;   
@@ -225,35 +216,33 @@ margin-left: 15vw;
     margin-top: 1.5rem; 
 }
 
-.btn-projeto{
+.btn-projeto {
     align-self: center;
     background-color: var(--azul); 
-    color: var(--branco);     
+    color: var(--branco);    
     text-decoration: none;    
     font-family: system-ui, sans-serif;
-    font-weight: 700;         
+    font-weight: 700;        
     font-size: 1rem;
-    padding: 10px 20px;        
+    padding: 0.8vw 1.5vw; 
     border-radius: 3vw;       
     margin-top: auto;      
-    margin-bottom: 2vw  ;  
-  
+    margin-bottom: 2vw;  
 }
 
 .btn-projeto:hover {
     background-color: rgb(150, 216, 255); 
-    color: var(--azul-ecuro);         
-    transform: translateY(-2px);     
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: var(--azul-ecuro);        
+    transform: translateY(-0.2vw); 
+    box-shadow: 0vw 0.4vw 1vw rgba(214, 254, 255, 0.4);
 }
-
 
 .cta-github {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 8vw 0; 
+    padding: 3vw 0; 
     margin-top: 5vw;
 }
 
@@ -265,9 +254,9 @@ margin-left: 15vw;
     max-width: 60vw;
     background: rgba(42, 72, 132, 0.15); 
     padding: 3rem;
-    border-radius: 20px;
-    border: 1px dashed rgba(184, 246, 255, 0.3); 
-    backdrop-filter: blur(5px); 
+    border-radius: 1.5vw;
+    border: 0.1vw dashed rgba(184, 246, 255, 0.3); 
+    backdrop-filter: blur(0.4vw);
 }
 
 .titulo-cta {
@@ -276,7 +265,7 @@ margin-left: 15vw;
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 1rem;
-    letter-spacing: -1px;
+    letter-spacing: -0.1vw;
 }
 
 .texto-cta {
@@ -295,29 +284,271 @@ margin-left: 15vw;
 .btn-github {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.8vw; 
     background-color: transparent;
     color: #b8f6ff; 
-    border: 2px solid #b8f6ff;
-    padding: 15px 35px;
-    border-radius: 50px;
+    border: 0.15vw solid #b8f6ff;
+    padding: 1vw 2.5vw; 
+    border-radius: 4vw;
     font-family: system-ui, sans-serif;
     font-weight: 800;
     text-decoration: none;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.1vw;
 }
 
 .icon-github-cta {
-    width: 24px;
-    height: 24px;  
+    width: 1.8vw;
+    height: 1.8vw;  
+    min-width: 20px;
+    min-height: 20px;
 }
 
 .btn-github:hover {
     background-color: #b8f6ff;
     color: var(--azul-ecuro);
-    box-shadow: 0px 0px 30px rgba(184, 246, 255, 0.6);
+    box-shadow: 0vw 0vw 2vw rgba(184, 246, 255, 0.6);
     transform: scale(1.05);
 }
 
+.secao-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 0;
+    margin-top: 3vw;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.card-contato {
+    background-color: rgba(180, 201, 235, 0.3); 
+    padding: 2.5rem;
+    border-radius: 1.5vw;
+    width: 40vw;
+    border: 0.1vw solid var(--azul);
+    box-shadow: 0vw 0vw 1.5vw rgba(3, 38, 99, 0.73);
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  
+}
+
+.input-campo {
+    background: rgb(235, 235, 235);
+    border: 0.1vw solid var(--azul);
+    border-radius: 0.6vw;
+    padding: 1vw; 
+     color: var(--azul-ecuro);
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+}
+
+.input-campo:focus {
+    outline: none;
+    border-color: #b8f6ff;
+    box-shadow: 0vw 0vw 0.8vw rgba(184, 246, 255, 0.3);
+}
+
+.area-texto {
+    height: 11vw; 
+    min-height: 100px; 
+    resize: none;
+}
+
+.btn-enviar {
+    background-color: rgb(28, 51, 87); 
+    color: var(--branco);
+    border: none;
+    padding: 1vw;
+    border-radius: 0.6vw;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #94d4ff;
+    transform: translateY(-0.2vw);
+    box-shadow: 0vw 0.4vw 1vw rgba(214, 254, 255, 0.4);
+    color: #102250;
+}
+
+.info-contato {
+    width: 30vw;
+}
+
+.subtitulo-contato {
+    color: #b8f6ff;
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.links-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.item-contato {
+    display: flex;
+    align-items: center;
+    gap: 1vw; 
+    color: var(--cor-textos);
+    text-decoration: none;
+    font-family: system-ui, sans-serif;
+    transition: 0.3s;
+}
+
+.item-contato:hover {
+    color: white;
+    transform: translateX(0.8vw); 
+}
+
+.mini-icone {
+    width: 2.2vw;
+    height: 2.2vw;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+@media (max-width: 768px) {
+    
+    
+    .sobre {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-foto {
+        margin-top: 25vw;
+        margin-left: 0;
+    }
+
+    .foto-perfil {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .div-descricao {
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-apresentacao {
+        font-size: 2.5rem;
+    }
+
+    .texto-sobre, .tecnologia-projeto {
+        max-width: 90vw; 
+        text-align: center;
+    }
+
+
+    .aba-habilidades {
+        flex-direction: column;
+        align-items: center;
+        gap: 8vw;
+    }
+
+    .box {
+        width: 80vw; 
+        height: auto;
+        padding: 5vw;
+    }
+
+    .icone-linguagem {
+        width: 12vw;
+    }
+
+
+    .container-projetos {
+        flex-direction: column;
+        align-items: center;
+        gap: 8vw;
+    }
+
+    .box-projetos {
+        width: 80vw;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .projeto {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .img-projetos {
+        width: 20vw;
+        height: 20vw;
+    }
+
+
+
+    .cta-content {
+        max-width: 90vw;
+        padding: 2rem 1rem;
+    }
+    
+    .titulo-cta {
+        font-size: 1.8rem;
+    }
+
+    .btn-github {
+        font-size: 0.8rem;
+        padding: 3vw 5vw;
+    }
+
+    .icon-github-cta {
+        width: 5vw;
+        height: 5vw;
+    }
+
+
+    .container-contato {
+        flex-direction: column;
+        align-items: center;
+        gap: 10vw;
+    }
+
+    .card-contato {
+        width: 85vw;
+        padding: 1.5rem;
+    }
+
+    .info-contato {
+        width: 85vw;
+        text-align: center;
+    }
+
+    .subtitulo-contato {
+        font-size: 1.5rem;
+    }
+
+    .links-redes {
+        align-items: center; 
+    }
+    
+    .mini-icone {
+        width: 6vw;
+        height: 6vw;
+    }
+}

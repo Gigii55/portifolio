@@ -1,11 +1,13 @@
-@import url('style.css');
+
 
 nav {
-  background-color: #0c1830; 
+ background-color: #0c1830; 
   height: 6rem;
   display: flex;
+  justify-content: space-between;
   align-items: center; 
-  padding: 0 2rem; 
+  padding: 0 5vw;
+  box-sizing: border-box; 
 }
 
 a{
@@ -49,4 +51,44 @@ height: 2.3rem;
 width: 2.3rem;
 margin-bottom: 0.3rem;
 margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+   
+  .logo{
+  margin-left: 2vw;
+  }
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        width: 100%;
+        gap: 4vw;
+        
+        
+        position: static; 
+        height: auto;
+        background-color: transparent;
+        backdrop-filter: none;
+        border: none;
+    }
+
+  
+    .nav-links a {
+        font-size: 1rem;
+    }
+
+  
+    .funcoes {
+        display: flex;
+        margin: 0;
+        gap: 4vw;
+    }
 }
