@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url("../images/e.png");
+    background-image: url("../images/b.png");
     background-size: cover;
       margin: 0;
   padding: 0;
@@ -44,41 +44,33 @@ margin-left: 15vw;
 }
 
 .div-descricao {
-
     width: 50vw;
     height: auto;
     margin-left: 5vw;
-
     margin-top: 3vw;
-  
-   
 }
 
 .secao-habilidades {
-     display: flex;
-    width: fit-content; 
-    text-align: center; 
-    margin-left: 5vw; 
-    margin-top: 10vw;
+  
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;        
+    margin-left: 0;    
+    margin-top: 10rem;   
     color: white;
-    font-family: 'Lucida Sans', sans-serif;
 }
 
-.minhas, .habi {
-       font-size: 2rem;
+.minhas {
+    font-size: 2rem;
     margin: 0;
     line-height: 1.2;
-}
-
-.aba-habilidades {
-    height: 20vw;
-    width: 50vw;
-    margin-top: 0.5vw;
-    margin-left: 14vw;
+    margin-bottom: 2vw;
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
 .titulo-apresentacao {
-    color: aliceblue;
+    color: var(--cor-textos);
     font-family: system-ui, -apple-system, sans-serif;
     font-size: 4rem;    
     font-weight: 900;       
@@ -96,4 +88,68 @@ margin-left: 15vw;
     line-height: 1.6;   
     max-width: 40vw;
     margin-top: 1.5rem; 
+}
+
+.aba-habilidades {
+    display: flex;
+    justify-content: center; 
+    gap: 4vw;               
+    width: 100%;             
+}
+
+.card-habilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: auto;       
+}
+
+.sessao-habilidades{
+    width: auto;
+}
+
+.card-habilidade h3 {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    font-family: system-ui, sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center; 
+    align-content: center;  
+    gap: 1.5rem;          
+    height: 25vw;
+    width: 25vw;
+    background-color: rgba(174, 193, 224, 0.286);   
+    border-radius: 10%;
+    padding: 1.5rem;      
+    border: 1px solid rgb(255, 255, 255); 
+    box-shadow: 0px 0px 20px rgba(202, 214, 235, 0.8); 
+}
+
+
+.item-skill {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+
+
+.icone-linguagem {
+    width: 6vw;    
+    height: auto;  
+}
+
+.nome-linguagem {
+    color: white;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 5px; 
+    margin-bottom: 0;
 }
