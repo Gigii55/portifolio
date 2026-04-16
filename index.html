@@ -21,7 +21,7 @@
             <a href="#contato">Contato</a>
         </div>
         <div class="funcoes">
-            <img class="icon-sol" src="images/icon-sol.svg" alt="">
+            <img class="icon-sol" id="alterar-tema" src="images/icon-sol.svg" alt="Alterar Tema">
            <div class="dropdown-idioma">
     <img class="icon-idioma" id="btn-idioma" src="images/icon-idioma.svg" alt="Idiomas">
     
@@ -218,9 +218,9 @@
             <div class="container-contato">
                 <div class="card-contato">
                     <form action="#" class="formulario-contato">
-                        <input type="text" placeholder="Seu Nome" class="input-campo" required>
-                        <input type="email" placeholder="Seu E-mail" class="input-campo" required>
-                        <textarea placeholder="Sua Mensagem" class="input-campo area-texto" required></textarea>
+                        <input type="text" name="name"placeholder="Seu Nome" class="input-campo" required>
+                        <input type="email" name="email" placeholder="Seu E-mail" class="input-campo" required>
+                        <textarea name="message"placeholder="Sua Mensagem" class="input-campo area-texto" required></textarea>
                         <button type="submit" class="btn-enviar">ENVIAR MENSAGEM</button>
                     </form>
                 </div>
@@ -253,7 +253,13 @@
                 </div>
             </div>
         </section>
-        <script src="js/listaIdioma.js"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="js/contato.js"></script>
+
+<script src="js/theme.js"></script>
+<script src="js/listaIdioma.js"></script>
 </body>
 
 </html>

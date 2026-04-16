@@ -14,6 +14,87 @@ body {
     padding: 0;
 }
 
+body.light-mode .icon-idioma {
+   
+    filter: brightness(0) saturate(100%) invert(13%) sepia(23%) saturate(5437%) hue-rotate(215deg) brightness(91%) contrast(92%);
+    transition: filter 0.5s ease;
+}
+
+
+body.light-mode .icon-sol {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(23%) saturate(5437%) hue-rotate(215deg) brightness(91%) contrast(92%);
+}
+
+body.light-mode .item-contato {
+    color: #102250;
+}
+
+body.light-mode .icone-linguagem {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(23%) saturate(5437%) hue-rotate(215deg) brightness(91%) contrast(92%);
+}
+body.light-mode h3, h2{
+    color: var(--azul-ecuro);
+}
+
+body.light-mode .box-projetos {
+    background-color: rgba(144, 189, 255, 0.672);
+    border: 0.1vw solid var(--azul); 
+    box-shadow: 0vw 0.5vw 1.5vw rgba(0, 0, 0, 0.1); 
+}
+
+
+body.light-mode .titulo-projeto,
+body.light-mode .tecnologia-projeto {
+    color: var(--azul-ecuro);
+}
+
+body.light-mode p{
+    color: var(--azul-ecuro);
+}
+body.light-mode {
+    background-image: url("../images/b2.png"); 
+    background-color: var(--branco);
+}
+
+body.light-mode .titulo-apresentacao,
+body.light-mode,
+body.light-mode .minhas {
+    color: var(--azul-ecuro);
+}
+
+body.light-mode .cta-content {
+    background: rgba(42, 72, 132, 0.08); 
+    border-color: var(--azul); 
+}
+
+
+body.light-mode .titulo-cta {
+    color: var(--azul-ecuro);
+}
+
+
+body.light-mode .texto-cta {
+    color: var(--azul-ecuro);
+}
+
+
+body.light-mode .btn-github {
+    color: var(--azul-ecuro);
+    border-color: var(--azul-ecuro);
+}
+
+
+body.light-mode .icon-github-cta {
+    filter: brightness(0);
+}
+
+/* 6. Efeito Hover do botão no Modo Claro */
+body.light-mode .btn-github:hover {
+    background-color: var(--azul-ecuro);
+    color: white;
+    box-shadow: 0vw 0vw 1.5vw rgba(16, 34, 80, 0.3);
+}
+
 .quem-sou {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -554,9 +635,9 @@ body {
 }
 
 
-/* --- ESTILO DO DROPDOWN DE IDIOMAS --- */
+
 .dropdown-idioma {
-    position: relative; /* Segura o menu preso abaixo do ícone */
+    position: relative; 
     display: inline-block;
 }
 
@@ -565,25 +646,24 @@ body {
     width: 2.3rem;
     margin-bottom: 0.3rem;
     margin-left: 1rem;
-    cursor: pointer; /* O mouse vira uma mãozinha para mostrar que é clicável */
+    cursor: pointer;
 }
 
-/* O Menu invisível por padrão */
 .menu-idiomas {
-    display: none; /* Fica escondido */
+    display: none; 
     position: absolute;
-    right: 0; /* Alinha a caixinha pela direita do ícone */
-    top: 100%; /* Desce para logo abaixo do ícone */
-    background-color: rgb(30, 48, 77); /* Usando aquele azul bonito dos seus projetos */
+    right: 0; 
+    top: 100%; 
+    background-color: rgb(30, 48, 77); 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     border: 1px solid var(--azul);
     border-radius: 8px;
-    z-index: 1000; /* Garante que fique por cima de tudo no site */
-    overflow: hidden; /* Pra não vazar os cantos quadrados nos links */
+    z-index: 1000;
+    overflow: hidden; 
 }
 
-/* Estilo dos links dentro da caixinha */
+
 .menu-idiomas a {
     color: var(--branco);
     padding: 12px 16px;
@@ -595,10 +675,9 @@ body {
 }
 
 .menu-idiomas a:hover {
-    background-color: var(--azul); /* Destaca quando passa o mouse */
+    background-color: var(--azul); 
 }
 
-/* A CLASSE MÁGICA: O JS vai usar essa classe para fazer o menu aparecer */
 .menu-idiomas.mostrar {
     display: block;
 }       
