@@ -67,6 +67,7 @@ margin-left: 15vw;
     line-height: 1.2;
     margin-bottom: 2vw;
     font-family: system-ui, -apple-system, sans-serif;
+    color:white;
 }
 
 .titulo-apresentacao {
@@ -106,6 +107,7 @@ margin-left: 15vw;
 
 .sessao-habilidades{
     width: auto;
+    
 }
 
 .card-habilidade h3 {
@@ -153,3 +155,169 @@ margin-left: 15vw;
     margin-top: 5px; 
     margin-bottom: 0;
 }
+
+.container-projetos {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center; 
+    gap: 4rem;              
+    width: 100%;           
+    margin-top: 3rem;      
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width: 100%;         
+    margin-top: 10vw;       
+    
+}
+
+.box-projetos {
+    display: flex;
+    flex-direction: column;     
+    justify-content: flex-start; 
+    align-items: flex-start;     
+    
+  
+    gap: 1.5rem;          
+    height: auto;
+    width: 25vw;
+    background-color: rgb(30, 48, 77);   
+    border-radius: 10%;
+    padding: 2rem;               
+    border: 1px solid rgb(75, 90, 135); 
+    box-shadow: 0px 0px 20px rgba(97, 151, 244, 0.8); 
+}
+
+
+.projeto {
+    display: flex;
+    align-items: center; 
+    gap: 1.5rem;         
+    width: 100%;         
+}
+
+.img-projetos {
+    margin-top: 0;
+    height: 8vw;         
+    width: 8vw;
+    border-radius: 10%;
+    object-fit: cover;   
+}
+
+.titulo-projeto {
+    color: white;
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;           
+}
+
+.tecnologia-projeto {
+
+   color: var(--cor-textos);      
+    font-family: system-ui, sans-serif;
+    font-size: 1.1rem;    
+    line-height: 1.6;   
+    max-width: 40vw;
+    margin-top: 1.5rem; 
+}
+
+.btn-projeto{
+    align-self: center;
+    background-color: var(--azul); 
+    color: var(--branco);     
+    text-decoration: none;    
+    font-family: system-ui, sans-serif;
+    font-weight: 700;         
+    font-size: 1rem;
+    padding: 10px 20px;        
+    border-radius: 3vw;       
+    margin-top: auto;      
+    margin-bottom: 2vw  ;  
+  
+}
+
+.btn-projeto:hover {
+    background-color: rgb(150, 216, 255); 
+    color: var(--azul-ecuro);         
+    transform: translateY(-2px);     
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.cta-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8vw 0; 
+    margin-top: 5vw;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 60vw;
+    background: rgba(42, 72, 132, 0.15); 
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px dashed rgba(184, 246, 255, 0.3); 
+    backdrop-filter: blur(5px); 
+}
+
+.titulo-cta {
+    color: var(--branco);
+    font-family: system-ui, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+}
+
+.texto-cta {
+    color: var(--cor-textos);
+    font-family: system-ui, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.div-btn-github {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-github {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: transparent;
+    color: #b8f6ff; 
+    border: 2px solid #b8f6ff;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-family: system-ui, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.icon-github-cta {
+    width: 24px;
+    height: 24px;  
+}
+
+.btn-github:hover {
+    background-color: #b8f6ff;
+    color: var(--azul-ecuro);
+    box-shadow: 0px 0px 30px rgba(184, 246, 255, 0.6);
+    transform: scale(1.05);
+}
+
