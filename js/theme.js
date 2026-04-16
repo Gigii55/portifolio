@@ -4,10 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   
     function atualizarIcone(isLight) {
+
         if (isLight) {
+
             btnTema.src = 'images/icon-lua.svg'; 
             btnTema.alt = 'Modo Escuro';
+
         } else {
+
             btnTema.src = 'images/icon-sol.svg';
             btnTema.alt = 'Modo Claro';
         }
@@ -15,16 +19,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     const temaSalvo = localStorage.getItem('tema');
+
     if (temaSalvo === 'light') {
-        body.classList.add('light-mode');
+        body.classList.add('light-mode');  // muda tudo pra light
         atualizarIcone(true);
     }
 
    
     if (btnTema) {
+
         btnTema.addEventListener('click', () => {
-            const isLight = body.classList.toggle('light-mode');
-            
+
+            const isLight = body.classList.toggle('light-mode'); // se ja tiver a classe ele tira e coloca a atual.
            
             localStorage.setItem('tema', isLight ? 'light' : 'dark');
             
